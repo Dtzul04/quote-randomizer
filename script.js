@@ -32,8 +32,8 @@ websites.forEach(function(site) {
 
 // Ask user for favorite website
 let newSite = prompt("What is your favorite website? Provide a link");
-websites.push(newSite);  // Add new website
-websites.shift();        // Remove the first website
+websites.push(newSite);  
+websites.shift();        
 
 // Clear old list and display updated list
 websiteList.innerHTML = "";
