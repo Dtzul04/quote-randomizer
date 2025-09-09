@@ -31,7 +31,7 @@ websites.forEach(function(site) {
 });
 
 // Ask user for favorite website
-let newSite = prompt("What is your favorite website? Provide a link");
+let newSite = prompt("What is your favorite website?");
 websites.push(newSite);  
 websites.shift();        
 
